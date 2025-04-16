@@ -1,8 +1,8 @@
 FROM flowiseai/flowise
 
-# Optional: preload your Flowise flows
+# Optional: preload flows
 # COPY .flowise /root/.flowise
 
 EXPOSE 3000
 
-CMD ["flowise", "start"]
+CMD ["npm", "start"]
